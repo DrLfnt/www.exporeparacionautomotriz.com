@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Expo Reparación y Mantenimiento Automotriz</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+	<style type="text/css">
+	.video-section .pattern-overlay {
+		background-color: rgba(71, 71, 71, 0.59);
+		padding: 110px 0 32px;
+		min-height: 496px;
+		/* Incase of overlay problems just increase the min-height*/
+	}
+	.video-section h1, .video-section h3 {
+		text-align: center;
+		color: #fff;
+	}
+	.video-section h1 {
+		font-size: 3.5em;
+		font-family: 'Roboto', serif;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 40px auto 0px;
+		text-shadow: 1px 1px 1px #000;
+		-webkit-text-shadow: 1px 1px 1px #000;
+		-moz-text-shadow: 1px 1px 1px #000;
+	}
+	.video-section h3 {
+		font-size: 25px;
+		font-weight: lighter;
+		margin: 0px auto 15px;
+	}
+	.video-section .buttonBar {
+		display: none;
+	}
+	.player {
+		font-size: 1px;
+	}
+	</style>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Navegación</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Logotipo ERMA</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Información</a></li>
+					<li><a href="#">Expositores</a></li>
+					<li><a href="#">Visitantes</a></li>
+					<li><a href="#">Galería</a></li>
+					<li class="active"><a href="#">Pre-Registro</a></li>
+					<li><a href="#">Hoteles y Aerolineas</a></li>
+				</ul>
+				<!-- <form class="navbar-form navbar-right">
+					<input type="text" class="form-control" placeholder="Search...">
+				</form>
+				-->
+			</div>
+		</div>
+	</nav>
+	
+	<section id="VIDEO BACKGROUND" class="content-section video-section">
+		<div class="pattern-overlay">
+			<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=UDpLVhMBDUY',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<h1>
+							14 EXPO<br />
+							REPARACIÓN Y<br />
+							MANTENIMIENTO<br />
+							AUTOMOTRIZ
+						</h1>
+						<h3>
+							MARZO 2016<br />
+							10, 11, 12<br /><br /><br />
+							ENTRADA LIBRE
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="jquery.mb.YTPlayer.src.js"></script>
+	<script>
+	$(document).ready(function () {
+		$(".player").mb_YTPlayer();
+	});
+	</script>
+</body>
+</html>
