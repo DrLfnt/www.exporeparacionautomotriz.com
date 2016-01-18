@@ -4173,6 +4173,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border: 1px solid transparent;
 }
 ul.nav.navbar-nav.navbar-right {
+  border-top: 2px solid #c2272d !important;
   margin-top: 50px;
 }
 @media (min-width: 768px) {
