@@ -5,10 +5,10 @@
     <title>14ª Expo Reparación y Mantenimiento Automotriz</title>
     <meta name="description" content="14ª Expo Reparación y Mantenimiento Automotriz" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/animate.min.css" rel="stylesheet" />
-    <link href="css/ionicons.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
   	<script>
@@ -19,7 +19,7 @@
 		ga('create', 'UA-54074410-1', 'auto');
 		ga('send', 'pageview');
 	</script>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="topNav" style="background: #fff !important; height: 110px !important;" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
@@ -28,34 +28,50 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#first">
-                	ERMA
+                <a class="navbar-brand page-scroll" href="index.html">
+                	<img src="images/erma-logotipo.png" class="logotipo img-responsive" alt="Expo Reparación y Mantenimiento">
                 </a>
+                <h3>
+					<span class="fecha">MARZO</span> <span class="fechaDias">10, 11 y 12</span>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					FALTAN:&nbsp;
+					<script>
+						TargetDate = "03/10/2016 11:00 AM";
+						BackColor = "transparent";
+						ForeColor = "#c2272d";
+						CountActive = true;
+						CountStepper = -1;
+						LeadingZero = true;
+						DisplayFormat = "%%D%% Días, %%H%%:%%M%%:%%S%%";
+						FinishMessage = "COMENZAMOS!!!";
+					</script>
+					<script src="js/countDown.js"></script>
+				</h3>
             </div>
             <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul class="nav navbar-nav navbar-right">
+                <ul style="border-top: 2px solid #c2272d !important; margin-top: 50px !important;" class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#one">Información</a>
+                        <a style="color: #000!important;" class="page-scroll" href="informacion.html">Información</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#two">Expositores</a>
+                        <a style="color: #000!important;" class="page-scroll" href="#two">Expositores</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#three">Visitantes</a>
+                        <a style="color: #000!important;" class="page-scroll" href="#three">Visitantes</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#four">Galería</a>
+                        <a style="color: #000!important;" class="page-scroll" href="#four">Galería</a>
                     </li>
-                    <li class="active">
-                        <a class="page-scroll" href="#last">Pre-Registro</a>
+                    <li style="background: #c2272d!important; color: !important;" class="active">
+                        <a style="color: #fff!important;" class="page-scroll" href="#last">Pre-Registro</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#last">Hoteles y Aerolineas</a>
+                        <a style="color: #000!important;" class="page-scroll" href="#last">Hoteles y Aerolineas</a>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="hidden nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">Ubicación</a>
+                        <a style="color: #000!important;" class="page-scroll" data-toggle="modal" title="A free Bootstrap video landing theme" href="#aboutModal">Ubicación</a>
                     </li>
                 </ul>
             </div>
@@ -64,13 +80,13 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1 class="">
+                <h1 class="text-shadow">
                 	14ª EXPO<br />
                 	REPARACIÓN Y<br />
                 	MANTENIMIENTO<br />
                 	AUTOMOTRIZ
                 </h1>
-                <h4>
+                <h4 class="text-shadow">
                 	MARZO 2016<br />
 					10, 11, 12<br /><br /><br />
 					ENTRADA LIBRE
@@ -80,13 +96,12 @@
                 <a href="#one" class="btn btn-primary btn-xl page-scroll">Registrate</a>
             </div>
         </div>
-        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="images/bgVideo.jpg" id="video-background">
-            <source src="video/erma.mp4" type="videos/mp4">Su navegador no soporta la mágia de internet. Le sugerimos actualice su navegador.
+        <video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="http://disainco.com/erma/images/bgVideo.jpg" id="video-background">
+            <source src="http://disainco.com/erma/videos/erma.mp4" type="video/mp4">Su navegador no soporta la mágia de internet. Le sugerimos actualice su navegador.
         </video>
     </header>
-    <div class="hidden">
 
-	    <section class="bg-primary" id="one">
+	    <section class="hidden bg-primary" id="one">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
@@ -100,7 +115,7 @@
 	            </div>
 	        </div>
 	    </section>
-	    <section id="two">
+	    <section class="hidden" id="two">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-12 text-center">
@@ -135,7 +150,7 @@
 	            </div>
 	        </div>
 	    </section>
-	    <section id="three" class="no-padding">
+	    <section id="three" class="hidden no-padding">
 	        <div class="container-fluid">
 	            <div class="row no-gutter">
 	                <div class="col-lg-4 col-sm-6">
@@ -213,7 +228,7 @@
 	            </div>
 	        </div>
 	    </section>
-	    <section class="container-fluid" id="four">
+	    <section class="hidden container-fluid" id="four">
 	        <div class="row">
 	            <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 	                <h2 class="text-center text-primary">Features</h2>
@@ -270,7 +285,7 @@
 	            </div>
 	        </div>
 	    </section>
-	    <aside class="bg-dark">
+	    <aside class="hidden bg-dark">
 	        <div class="container text-center">
 	            <div class="call-to-action">
 	                <h2 class="text-primary">Get Started</h2>
@@ -300,7 +315,7 @@
 	            </div>
 	        </div>
 	    </aside>
-	    <section id="last">
+	    <section class="hidden " id="last">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -335,7 +350,7 @@
 	            </div>
 	        </div>
 	    </section>
-	    <footer id="footer">
+	    <footer class="hidden " id="footer">
 	        <div class="container-fluid">
 	            <div class="row">
 	                <div class="col-xs-6 col-sm-3 column">
@@ -380,7 +395,7 @@
 	            <span class="pull-right text-muted small"><a href="http://www.bootstrapzero.com">Landing Zero by BootstrapZero</a> ©2015 Company</span>
 	        </div>
 	    </footer>
-	    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div id="galleryModal" class="hidden modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 	        <div class="modal-dialog modal-lg">
 	        <div class="modal-content">
 	        	<div class="modal-body">
@@ -397,23 +412,21 @@
 	        <div class="modal-dialog">
 	        <div class="modal-content">
 	        	<div class="modal-body">
-	        		<h2 class="text-center">Landing Zero Theme</h2>
+	        		<h2 class="text-center">14 ERMA</h2>
 	        		<h5 class="text-center">
-	        		    A free, responsive landing page theme built by BootstrapZero.
+	        		    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis nemo, maiores sed tempore. Autem, soluta.
 	        		</h5>
 	        		<p class="text-justify">
-	        		    This is a single-page Bootstrap template with a sleek dark/grey color scheme, accent color and smooth scrolling.
-	        		    There are vertical content sections with subtle animations that are activated when scrolled into view using the jQuery WOW plugin. There is also a gallery with modals
-	        		    that work nicely to showcase your work portfolio. Other features include a contact form, email subscribe form, multi-column footer. Uses Questrial Google Font and Ionicons.
+	        		    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quis voluptas atque fuga! Nemo, iste obcaecati voluptatem. Minima non voluptatibus sequi libero consequatur porro doloribus. Nostrum error optio illo nihil.
 	        		</p>
-	        		<p class="text-center"><a href="http://www.bootstrapzero.com">Download at BootstrapZero</a></p>
+	        		<p class="text-center"><a href="http://maps.google.com">Ir a Ubicación</a></p>
 	        		<br/>
 	        		<button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK </button>
 	        	</div>
 	        </div>
 	        </div>
 	    </div>
-	    <div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div id="alertModal" class="hidden modal fade" tabindex="-1" role="dialog" aria-hidden="true">
 	        <div class="modal-dialog modal-sm">
 	        <div class="modal-content">
 	        	<div class="modal-body">
@@ -427,18 +440,13 @@
 	        </div>
 	    </div>
     	
-    </div>
+
+
     <!-- Scripts loaded here from CDN for performance -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- Native Scripts
-	    <script src="js/1.9.1.jquery.min.js"></script>
-	    <script src="js/bootstrap.min.js"></script>
-	    <script src="js/1.3.jquery.easing.min.js"></script>
-	    <script src="js/1.1.2.wow.js"></script>
-	-->
   </body>
 </html>

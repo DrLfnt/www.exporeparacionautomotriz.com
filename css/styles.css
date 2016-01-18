@@ -1,9 +1,24 @@
-/*
-
-Landing Zero theme - A free landing page theme from BootstrapZero
-http://www.bootstrapzero.com
-
-*/
+/* Main */
+.logotipo {
+    width: 110px;
+}
+.text-shadow {
+    text-shadow: 0 0 4px #000000;
+}
+nav div div h3 {
+    vertical-align: middle;
+    color: #c2272d;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    left: 760px;
+    top: -4px;
+}
+.fechaDias {
+    color: #aaa8a9;
+    font-size: 24px;
+}
+/* Main */
 
 @import url(https://fonts.googleapis.com/css?family=Questrial);
 @import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
@@ -34,7 +49,7 @@ hr.light {
 }
 
 a {
-    color: #9c27b0;
+    color: #c2272d;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -42,7 +57,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #9c27c1;
+    color: #c2272d;
     outline: 0;
 }
 
@@ -88,7 +103,7 @@ p {
 }
 
 .text-primary {
-    color: #9c27b0;
+    color: #c2272d;
 }
 
 .modal-content {
@@ -112,9 +127,9 @@ footer {
 }
 
 .navbar-default {
-    border-color: rgba(35,35,35,.05);
+    border-color: #c2272d;
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #222;
+    background-color: #c2272d;
     -webkit-transition: all .4s;
     -moz-transition: all .4s;
     transition: all .4s;
@@ -122,7 +137,7 @@ footer {
 
 .navbar-header > .navbar-brand {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    color: #9c27b0;
+    color: #c2272d;
     padding: 15px;
     -webkit-transition: padding .2s ease-in;
     -moz-transition: padding .2s ease-in;
@@ -131,11 +146,11 @@ footer {
 
 .navbar-header > .navbar-brand:hover,
 .navbar-header > .navbar-brand:focus {
-    color: #8b27b0;
+    color: #c2272d;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #181818;
+    background-color: #fff;
 }
 .navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
     border-color: transparent;
@@ -151,12 +166,12 @@ footer {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9c27b0;
+    color: #c2272d;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9c27b0 !important;
+    color: #c2272d !important;
     background-color: transparent;
 }
 
@@ -204,7 +219,7 @@ footer {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 15px;
-        color: #9c27b0;
+        color: #c2272d;
         padding: 20px;
         letter-spacing: 1px;
     }
@@ -222,7 +237,7 @@ footer {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9c27b0;
+        color: #c2272d;
     }
 }
 
