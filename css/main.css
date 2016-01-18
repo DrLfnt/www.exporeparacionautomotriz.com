@@ -14,3 +14,9 @@ nav div div h3 {
 	color: #aaa8a9;
 	font-size: 24px;
 }
+.white {
+	color: #fff !important;
+}
+.MenuActivo{
+	color: #c2272d !important;
+}
