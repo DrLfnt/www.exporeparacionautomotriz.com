@@ -8,7 +8,9 @@
 .lsn {
     list-style: none;
     text-align: left;
-    
+}
+.tar {
+    text-align: right;
 }
 nav div div h3 {
     vertical-align: middle;
