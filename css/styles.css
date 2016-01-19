@@ -5,6 +5,11 @@
 .text-shadow {
     text-shadow: 0 0 4px #000000;
 }
+.lsn {
+    list-style: none;
+    text-align: left;
+    
+}
 nav div div h3 {
     vertical-align: middle;
     color: #c2272d;
@@ -204,7 +209,6 @@ footer {
         color: rgba(255,255,255,0.8);
         padding: 20px;
         letter-spacing: 1.1px;
-        text-shadow: 1px 1px 1px rgba(60,60,60,0.7);
     }
 
     .navbar-default .nav > li>a:hover,
@@ -257,7 +261,7 @@ header {
 }
 
 header .header-content {
-    position: relative;
+    position: absolute;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
@@ -274,6 +278,17 @@ header .header-content .inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,0.7);
+}
+
+#image-background {
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: 1;
 }
 
 #video-background {
