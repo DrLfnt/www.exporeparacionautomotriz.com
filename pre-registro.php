@@ -1,183 +1,280 @@
-<!DOCTYPE html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>14ª Expo Reparación y Mantenimiento Automotriz</title>
-    <meta name="description" content="14ª Expo Reparación y Mantenimiento Automotriz" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-  	<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-54074410-1', 'auto');
-		ga('send', 'pageview');
-	</script>
-    <nav id="topNav" style="background: #fff !important; height: 190px !important;" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Navegación</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">
-                	<img src="images/erma-logotipo2.png" class="logotipo img-responsive" alt="Expo Reparación y Mantenimiento">
-                </a>
-                <h3 style="margin-top: 45px !important;">
-					<span class="fecha">MARZO</span> <span class="fechaDias">10, 11 y 12</span>
-					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<span class="fecha">FALTAN:</span>&nbsp;
-					<span class="fecha">
-						<script>
-							TargetDate = "03/10/2016 11:00 AM";
-							BackColor = "transparent";
-							ForeColor = "#c2272d";
-							CountActive = true;
-							CountStepper = -1;
-							LeadingZero = true;
-							DisplayFormat = "%%D%% Días, %%H%%:%%M%%:%%S%%";
-							FinishMessage = "COMENZAMOS!!!";
-						</script>
-						<script src="js/countDown.js"></script>
-					</span>
-					<img class="redes-sociales" src="images/facebook.png">
-					<img class="redes-sociales" src="images/twitter.png">
-				</h3>
+<head>
+<title>13ª Expo Reparación Automotriz 2015</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="13ª Expo Reparación Automotriz 2015" />
+<meta name="keywords" content="keywords, go, here" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+	
+<style type="text/css">
+.content #footer .info table tr td table tr td {
+	color: #FFFFFF;
+	font-size: 12px;
+	text-align: center;
+	font-weight: normal;
+}
+.content #footer .info table tr td table {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+}
+.d {
+	font-size: .7;
+	font-weight: normal;
+}
+.tutilin {
+	font-weight: bold;
+	font-size: 12px;
+}
+.table_a {
+	color: #F4AB1E;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content table tr td table {
+	font-size: 11px;
+	color: #F4AB1E;
+	text-align:center;
+}
+</style>
+<link href="http://exporeparacionautomotriz.com/ddmenu/ddmenu.css" rel="stylesheet" type="text/css" />
+<script src="http://exporeparacionautomotriz.com/ddmenu/ddmenu.js" type="text/javascript"></script>
+<script src="http://exporeparacionautomotriz.com/Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="http://exporeparacionautomotriz.com/engine1//jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+
+<style type="text/css">
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style6 {font-size: 17px}
+.style11 {color: #F1A80D}
+</style>
+</head>
+
+<body >
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54074410-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+	<div class="content">
+	  <div id="header" onclick="window.location='index.php';">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="32%">&nbsp;</td>
+    <td width="37%">&nbsp;</td>
+    <td width="31%"><div class="headings" >
+	    <div align="left" class="table_a style6"><span class="style11">FALTAN:</span><em>
+	      <script language="JavaScript">
+TargetDate = "03/12/2015 11:00 AM";
+BackColor = "transparent";
+ForeColor = "#333333";
+CountActive = true;
+CountStepper = -1;
+LeadingZero = true;
+DisplayFormat = "%%D%% Días, %%H%%:%%M%%:%%S%%.";
+FinishMessage = "COMENZAMOS!!!";
+                   </script>
+	      
+	        <script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script> 
+	      </em>	      </div>
+    </div></td>
+  </tr>
+</table>
+
+	  
+		
+		
+	  </div>
+	
+			<div id="menu">
+			  	<ul>
+			  	
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0"  bgcolor="#F4AB1E">
+                      <tr>
+                        <td>
+                        <!--MENU PRINCIPAL -->
+                       <nav id="ddmenu">
+    <ul>
+        <li><a href="#">Información</a>
+            <div>
+                <div class="column">
+                    <a href="informacion_general.php">Informacion general</a>
+					<a href="13vaedicion2015.php">13va Edición 2015</a>
+                    <a href="Resena12vaEdicion.php">Reseña 12 va edición 2014</a>
+                    <a href="Resena11vaEdicion.php">Reseña 11 va edición 2013</a>
+                    <a href="Estadisticas.php">Estadísticas</a>
+                    <a href="AcercadelOrganizador.php">Acerca del organizador</a>
+                      <a href="index.php">Home</a>                </div>
+             </div>
+        </li>
+        <li><a href="#">Expositores</a>
+        <div>
+                <div class="column">
+                    <a href="Porqueparticipar.php">¿Por qué participar?</a>
+                    <a href="CaracteristicasdelStand.php">Características del stand</a>
+                    <a href="PlanodeStands.php">Plano de Stands</a>
+                    <a href="Patrocinios.php">Patrocinios</a>                </div>
+             </div>
+       </li>
+        <li>Visitantes
+            <div>
+                <div class="column">
+                    <a href="Expositores participantes.php">Expositores participantes</a>
+					<a href="Atracciones en el evento.php">Atracciones del evento</a>
+                    <a href="zona de demostraciones.php">Zona de demostración</a>
+                    <a href="Zona de Capacitacion Tecnica.php">Zona de Capacitación técnica</a>
+                    <a href="Novedades y ofertas.php">Novedades y Ofertas</a>                </div>
             </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-                <ul style="border-top: 2px solid #c2272d !important; margin-top: 128px !important;" class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="informacion.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Información <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="#informacionGeneral">Información general</a></li>
-                    		<li><a class="page-scroll" href="14-edicion-expo-reparacion-y-mantenimiento-automotriz-2016.html">14va Edición 2016</a></li>
-                    		<li><a class="page-scroll" href="resena-13-edicion-2015.html">Reseña 13va Edición</a></li>
-                    		<li><a class="page-scroll" href="resena-12-edicion-2014.html">Reseña 12va Edición</a></li>
-                    		<li><a class="page-scroll" href="estadisticas.html">Estadísticas</a></li>
-                    		<li><a class="page-scroll" href="#organizador">Acerca del organizador</a></li>
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="porque-participar-en-erma.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Expositores <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="porque-participar-en-erma.html">¿Por qué participar?</a></li>
-                    		<li><a class="page-scroll" href="caracteristicas-del-stand.html">Características del stand</a></li>
-                    		<li><a class="page-scroll" href="plano-de-stands.html">Plano de Stands</a></li>
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="expositores-participantes.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visitantes <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="expositores-participantes.html">Expositores participantes</a></li>
-                    		<li><a class="page-scroll" href="atracciones-en-el-evento.html">Atracciones del evento</a></li>
-                    		<li><a class="page-scroll" href="atracciones-en-el-evento.html#demostracion">Zona de demostración</a></li>
-                    		<li><a class="page-scroll" href="atracciones-en-el-evento.html#capacitacion">Zona de capacitación</a></li>
-                    		<li><a class="page-scroll" href="novedades.html">Novedades</a></li>
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="videos-erma.html">Videos</a></li>
-                    		<li><a class="page-scroll" href="fotos-erma.html">Fotos</a></li>
-                    	</ul>
-                    </li>
-                    <li style="background: #c2272d!important; color: !important;" class="dropdown">
-                    	<a style="color: #fff!important;" class="active" href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pre-Registro <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="#preRegistro">Formato</a></li>
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">English info <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="general-information.html">General Information</a></li>
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
-                    	<a style="color: #000!important;" href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hoteles y Aerolineas <span class="caret"></span></a>
-                    	<ul class="dropdown-menu">
-                    		<li><a class="page-scroll" href="hoteles-y-aerolineas-en-convenio.html">Hoteles y Aerolíneas en Convenio</a></li>
-                    	</ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header>
-        <div class="header-content">
-            <div class="container">
-				<div class="row white text-shadow">
-					
+        </li>
+        <li>Video y Galería
+           
+                <div class="column">
+                    <a href="Video.php">Video</a>
+                    <a href="Fotos.php">Fotos</a>               </div>
+        </li>
+        <li><a href="#">Pre-registro</a>        </li>
+         <li><a href="#">English Info</a>
+            
+                <div class="column">
+                    <a href="english_info.php">General information</a>          </div>
+        </li>
+         <li><a href="#">Hoteles y Aerolineas</a>
+            
+                <div class="column">
+                    <a href="Hoteles en Convenio.php">Hoteles en Convenio</a>
+                    <a href="Aerolineas en Convenio.php">Aerolineas en Convenio</a>                </div>           
+        </li>
+    </ul>
+</nav>
+                        <!--TERMINA EL MENU PRINCIPAL -->
+                        </td>
+                    </tr>
+                      <tr>
+                        <td><table width="75%" border="0" cellspacing="0" cellpadding="0">
+                        
+                          <tr>
+                            <td width="24%">&nbsp;</td>
+                            <td width="76%"><div style="width:100%"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="100%" height="27">
+                              <param name="movie" value="images/preregistro.swf" />
+                              <param name="quality" value="high" />
+                              <param name="wmode" value="opaque" />
+                              <param name="swfversion" value="9.0.45.0" />
+                              <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+                              <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                              <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+                              <!--[if !IE]>-->
+                              <object type="application/x-shockwave-flash" data="images/preregistro.swf" width="100%" height="35">
+                                <!--<![endif]-->
+                                <param name="quality" value="high" />
+                                <param name="wmode" value="opaque" />
+                                <param name="swfversion" value="9.0.45.0" />
+                                <param name="expressinstall" value="Scripts/expressInstall.swf" />
+                                <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+                                <p><a href="http://www.exporeparacionautomotriz.com/pre-registro.php"><img src="images/preregistrate.jpg" width="600" height="27" /></a></p>
+                               <!--[if !IE]>-->
+                              </object>
+                              <!--<![endif]-->
+                            </object></div></td>
+                          </tr>
+                          <tr>
+                            <td height="17">&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr>
+                        </table></td>
+                      </tr>
+                  </table>
+                  
+			  	</ul>
+			</div>	
+			
+		  <p>&nbsp;</p>
 <div id="main">  
 <script type="text/javascript" src="http://exporeparacionautomotriz.com/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    cargar_paises();
-    $("#pais").change(function(){dependencia_estado();});
-    $("#estado").change(function(){dependencia_ciudad();});
-    $("#estado").attr("disabled",true);
-    $("#ciudad").attr("disabled",true);
+	cargar_paises();
+	$("#pais").change(function(){dependencia_estado();});
+	$("#estado").change(function(){dependencia_ciudad();});
+	$("#estado").attr("disabled",true);
+	$("#ciudad").attr("disabled",true);
 });
 
 function cargar_paises()
 {
-    $.get("http://exporeparacionautomotriz.com/Scripts/cargar-paises.php", function(resultado){
-        if(resultado == false)
-        {
-            alert("Error");
-        }
-        else
-        {
-            $('#pais').append(resultado);           
-        }
-    }); 
+	$.get("http://exporeparacionautomotriz.com/Scripts/cargar-paises.php", function(resultado){
+		if(resultado == false)
+		{
+			alert("Error");
+		}
+		else
+		{
+			$('#pais').append(resultado);			
+		}
+	});	
 }
 function dependencia_estado()
 {
-    var code = $("#pais").val();
-    $.get("http://exporeparacionautomotriz.com/Scripts/dependencia-estado.php", { code: code },
-        function(resultado)
-        {
-            if(resultado == false)
-            {
-                alert("Error");
-            }
-            else
-            {
-                $("#estado").attr("disabled",false);
-                document.getElementById("estado").options.length=1;
-                $('#estado').append(resultado);         
-            }
-        }
+	var code = $("#pais").val();
+	$.get("http://exporeparacionautomotriz.com/Scripts/dependencia-estado.php", { code: code },
+		function(resultado)
+		{
+			if(resultado == false)
+			{
+				alert("Error");
+			}
+			else
+			{
+				$("#estado").attr("disabled",false);
+				document.getElementById("estado").options.length=1;
+				$('#estado').append(resultado);			
+			}
+		}
 
-    );
+	);
 }
 
 function dependencia_ciudad()
 {
-    var code = $("#estado").val();
-    $.get("http://exporeparacionautomotriz.com/Scripts/dependencia-ciudades.php?", { code: code }, function(resultado){
-        if(resultado == false)
-        {
-            alert("Error");
-        }
-        else
-        {
-            $("#ciudad").attr("disabled",false);
-            document.getElementById("ciudad").options.length=1;
-            $('#ciudad').append(resultado);         
-        }
-    }); 
-    
+	var code = $("#estado").val();
+	$.get("http://exporeparacionautomotriz.com/Scripts/dependencia-ciudades.php?", { code: code }, function(resultado){
+		if(resultado == false)
+		{
+			alert("Error");
+		}
+		else
+		{
+			$("#ciudad").attr("disabled",false);
+			document.getElementById("ciudad").options.length=1;
+			$('#ciudad').append(resultado);			
+		}
+	});	
+	
 }
 
 function otroff(){
@@ -242,12 +339,12 @@ if(form1.CARGO.value=="OTRO"){
 
 function checarcombo2(){
 if(form1.A.value=="NINGUNA"){
-    for (i=0; rad = form1.CLF[i]; i++)
-    rad.disabled = true;    
+	for (i=0; rad = form1.CLF[i]; i++)
+    rad.disabled = true;	
 
 }else{
-    for (i=0; rad = form1.CLF[i]; i++)
-         rad.disabled = false;       
+	for (i=0; rad = form1.CLF[i]; i++)
+		 rad.disabled = false;		 
 }
 }
 function checarcombo3(){
@@ -271,23 +368,23 @@ var error = "Por favor, antes de enviar el formulario,\ncomplete los siguientes 
 var a = ""
 
     if (form1.NOMBRE1.value == "") { a += "PRIMER NOMBRE\n"; }
-    if (form1.appaterno.value == "") { a += "PRIMER APELLIDO\n"; }
-    if (form1.apmaterno.value == "") { a += "SEGUNDO APELLIDO\n"; }
-    if (form1.edad.value == "") { a += "EDAD\n"; }
-    if (form1.COMPANIA.value == "") { a += "COMPANIA\n"; }
-    if (form1.CARGO.selectedIndex == "0") { a += "CARGO\n"; }
-     if (form1.GIRO.selectedIndex == "0") { a += "GIRO\n"; }
+	if (form1.appaterno.value == "") { a += "PRIMER APELLIDO\n"; }
+	if (form1.apmaterno.value == "") { a += "SEGUNDO APELLIDO\n"; }
+	if (form1.edad.value == "") { a += "EDAD\n"; }
+	if (form1.COMPANIA.value == "") { a += "COMPANIA\n"; }
+	if (form1.CARGO.selectedIndex == "0") { a += "CARGO\n"; }
+	 if (form1.GIRO.selectedIndex == "0") { a += "GIRO\n"; }
     if (form1.SECTOR.selectedIndex == "0") { a += "SECTOR\n"; }
-    if (form1.DIRECCION.value == "") { a += "DIRECCION\n"; }
+	if (form1.DIRECCION.value == "") { a += "DIRECCION\n"; }
     if (form1.COLONIA.value == "") { a += "COLONIA\n"; }
     if (form1.CP.value == "") { a += "CP\n"; }
     if (form1.pais.selectedIndex == "0") { a += "PAIS\n"; }
     if (form1.estado.selectedIndex == "0") { a += "ESTADO\n"; }
     if (form1.ciudad.selectedIndex == "0") { a += "MUNICIPIO\n"; }
-    if (form1.CIU.value == "") { a += " CIUDAD\n"; }
+	if (form1.CIU.value == "") { a += " CIUDAD\n"; }
     if (form1.TEL1.value == "") { a += " TELÉFONO\n"; }
-    
-    if ((form1.MAIL.value == "") ||
+	
+	if ((form1.MAIL.value == "") ||
 //Si no contiene un arroba
 (form1.MAIL.value.indexOf('@') == -1) ||
 //o un punto
@@ -295,26 +392,26 @@ var a = ""
 //lo informamos.
 a += " FALTA CORREO O ESTA INCORRECTO \n";
 }
-    
-    if (form1.A.selectedIndex == "0") { a += "PREGUNTA A)\n"; } 
-    if (form1.B.selectedIndex == "0") { a += "PREGUNTA B)\n"; } 
-    if (form1.C[0].checked == false && form1.C[1].checked == false && form1.C[2].checked == false && form1.C[3].checked == false && form1.C[4].checked == false && form1.C[5].checked == false && form1.C[6].checked == false && form1.C[7].checked == false && form1.C[8].checked == false && form1.C[9].checked == false && form1.C[10].checked == false  ) { a += "  PREGUNTA C)\n"; }   
-    
-    if (form1.C4.checked == true && form1.otroc4.value == "" ) { a += " C4: OTRO ¿CUÁL?\n"; }   
-    if (form1.C5.checked == true && form1.otroc5.value == "" ) { a += " C5: OTRO ¿CUÁL?\n"; }   
-    if (form1.C6.checked == true && form1.otroc6.value == "" ) { a += " C6: OTRO ¿CUÁL?\n"; }   
-    if (form1.C11.checked == true && form1.otroc11.value == "" ) { a += " C11: OTRO ¿CUÁL?\n"; }    
-        
-    
-    if (form1.D[0].checked == false && form1.D[1].checked == false && form1.D[2].checked == false && form1.D[3].checked == false && form1.D[4].checked == false && form1.D[5].checked == false && form1.D[6].checked == false && form1.D[7].checked == false && form1.D[8].checked == false && form1.D[9].checked == false&& form1.D[10].checked == false && form1.D[11].checked == false&& form1.D[12].checked == false&& form1.D[13].checked == false&& form1.D[14].checked == false&& form1.D[15].checked == false) { a += "  PREGUNTA D)\n"; }  
-    
-    if (form1.D16.checked == true && form1.CUALINTER.value == "" ) { a += " D: OTRO ¿CUÁL?\n"; }    
-    
-    if (form1.E.selectedIndex == "0") { a += "PREGUNTA E)\n"; }
+	
+	if (form1.A.selectedIndex == "0") { a += "PREGUNTA A)\n"; }	
+	if (form1.B.selectedIndex == "0") { a += "PREGUNTA B)\n"; }	
+	if (form1.C[0].checked == false && form1.C[1].checked == false && form1.C[2].checked == false && form1.C[3].checked == false && form1.C[4].checked == false && form1.C[5].checked == false && form1.C[6].checked == false && form1.C[7].checked == false && form1.C[8].checked == false && form1.C[9].checked == false && form1.C[10].checked == false  ) { a += "  PREGUNTA C)\n"; }	
+	
+	if (form1.C4.checked == true && form1.otroc4.value == "" ) { a += " C4: OTRO ¿CUÁL?\n"; }	
+	if (form1.C5.checked == true && form1.otroc5.value == "" ) { a += " C5: OTRO ¿CUÁL?\n"; }	
+	if (form1.C6.checked == true && form1.otroc6.value == "" ) { a += " C6: OTRO ¿CUÁL?\n"; }	
+	if (form1.C11.checked == true && form1.otroc11.value == "" ) { a += " C11: OTRO ¿CUÁL?\n"; }	
+		
+	
+	if (form1.D[0].checked == false && form1.D[1].checked == false && form1.D[2].checked == false && form1.D[3].checked == false && form1.D[4].checked == false && form1.D[5].checked == false && form1.D[6].checked == false && form1.D[7].checked == false && form1.D[8].checked == false && form1.D[9].checked == false&& form1.D[10].checked == false && form1.D[11].checked == false&& form1.D[12].checked == false&& form1.D[13].checked == false&& form1.D[14].checked == false&& form1.D[15].checked == false) { a += "  PREGUNTA D)\n"; }	
+	
+	if (form1.D16.checked == true && form1.CUALINTER.value == "" ) { a += " D: OTRO ¿CUÁL?\n"; }	
+	
+	if (form1.E.selectedIndex == "0") { a += "PREGUNTA E)\n"; }
 
-    if (form1.F[0].checked == false && form1.F[1].checked == false && form1.F[2].checked == false && form1.F[3].checked == false  ) { a += "  PREGUNTA F)\n"; } 
-if (form1.F4.checked == true && form1.otrof.value == "" ) { a += " F4: OTRO ¿CUÁL?\n"; }    
-    if (form1.PRI[0].checked == false && form1.PRI[1].checked == false   ) { a += " Políticas de  privacidad\n"; }
+	if (form1.F[0].checked == false && form1.F[1].checked == false && form1.F[2].checked == false && form1.F[3].checked == false  ) { a += "  PREGUNTA F)\n"; }	
+if (form1.F4.checked == true && form1.otrof.value == "" ) { a += " F4: OTRO ¿CUÁL?\n"; }	
+	if (form1.PRI[0].checked == false && form1.PRI[1].checked == false   ) { a += " Políticas de  privacidad\n"; }
      
     
     if (a != "") { alert(error + a); return true; }
@@ -421,7 +518,7 @@ form1.submit()
               <td align="left"><label>
                 <select name="CARGO"   onchange="checarcombo22();" >
                   <option value="0">Selecciona Uno...</option>
-                     <option value="PROPIETARIO">PROPIETARIO</option>
+                   	 <option value="PROPIETARIO">PROPIETARIO</option>
                      <option value="SOCIO">SOCIO</option>
                      <option value="INVERSIONISTA">INVERSIONISTA</option>
                      <option value="DIRECTOR GENERAL / AREA">DIRECTOR GENERAL / AREA</option>
@@ -857,31 +954,139 @@ form1.submit()
 
 
       </div>
-                    
-				</div>
-			</div>
-        </div>
-        <img id="image-background" src="http://disainco.com/erma/images/bgContenido.jpg" alt="ERMA">
-    </header>
-    <body>
-        <div class="content">
-            <div class="container">
-                <div class="row white text-shadow">
-                    <hr>
-                    <div class="col-md-12">
-                        <!-- FORMULARIO -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <img id="image-background" src="http://disainco.com/erma/images/bgContenido.jpg" alt="ERMA">
-    </body>
+      <style type="text/css">
+<!--
+.style3 {color: #FF9900}
+.style4 {color: #333333}
+-->
+      </style>
+      
 
-    <!-- Scripts loaded here from CDN for performance -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+		
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td  bgcolor="#F4AB1E">&nbsp;</td>
+	        </tr>
+            <tr>
+		      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		          <td>&nbsp;</td>
+		          <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="845" height="157">
+		            <param name="movie" value="http://exporeparacionautomotriz.com/images/logos.swf" />
+		            <param name="quality" value="high" />
+		            <param name="wmode" value="opaque" />
+		            <param name="swfversion" value="9.0.45.0" />
+		            <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+		            <param name="expressinstall" value="Scripts/expressInstall.swf" />
+		            <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+		            <!--[if !IE]>-->
+		            <object type="application/x-shockwave-flash" data="images/logos.swf" width="600" height="100">
+		              <!--<![endif]-->
+		              <param name="quality" value="high" />
+		              <param name="wmode" value="opaque" />
+		              <param name="swfversion" value="9.0.45.0" />
+		              <param name="expressinstall" value="http://exporeparacionautomotriz.com/Scripts/expressInstall.swf" />
+		              <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+                                <a href="#"><img src="http://exporeparacionautomotriz.com/images/aseguradoras.jpg" width="845" height="80" /></a>
+                               <!--[if !IE]>-->
+	                </object>
+		            <!--<![endif]-->
+	              </object></td>
+		          <td>&nbsp;</td>
+	            </tr>
+	          </table></td>
+    </tr>
+		    <tr>
+		      <td  bgcolor="#F4AB1E">&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td >&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		          <td width="14%" height="18" > <span class="table_a style3"><strong>Información</strong></span></td>
+		          <td width="17%"><span class="table_a style3"><strong>Expositores</strong></span></td>
+		          <td width="18%"><span class="table_a style3"><strong>Visitantes</strong></span></td>
+		          <td width="12%"><span class="table_a style3"><strong>Video y Galería</strong></span></td>
+		          <td width="10%"><span class="table_a style3"><strong><a href="#">Pre-registro</a></strong></span></td>
+		          <td width="14%"><span class="table_a style3"><strong>English info</strong></span></td>
+		          <td width="15%"><span class="table_a style3"><strong>Hoteles y Aerolineas</strong></span></td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="informacion_general.php" class="style4">Informacion general</a></td>
+		          <td><a href="Porqueparticipar.php" class="style4">¿Por qué participar?</a></td>
+		          <td><a href="Expositores participantes.php" class="style4">Expositores participantes</a></td>
+		          <td><a href="Video.php" class="style4">Video</a></td>
+		          <td>&nbsp;</td>
+		          <td><span class="style4">General information</span></td>
+		          <td><a href="Hoteles en Convenio.php" class="style4">Hoteles en Convenio</a></td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="12vaedicion2014.php" class="style4">12va edición 2014</a></td>
+		          <td><a href="CaracteristicasdelStand.php" class="style4">Características del stand</a></td>
+		          <td><a href="Atracciones en el evento.php" class="style4">Atracciones del evento</a></td>
+		          <td><a href="Fotos.php" class="style4">Fotos</a></td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td><span class="style4">Aerolineas en Convenio</span></td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="Resena11vaEdicion.php" class="style4">Reseña 11 va edción</a></td>
+		          <td><a href="PlanodeStands.php" class="style4">Plano de Stands</a></td>
+		          <td><a href="zona de demostraciones.php" class="style4">Zona de demostración</a></td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="Estadisticas.php" class="style4">Estadísticas</a></td>
+		          <td><a href="Patrocinios.php" class="style4">Patrocinios</a></td>
+		          <td><a href="Zona de Capacitacion Tecnica.php" class="style4">Zona de Capacitación técnica</a></td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="AcercadelOrganizador.php" class="style4">Acerca del organizador</a></td>
+		          <td>&nbsp;</td>
+		          <td><a href="Novedades y ofertas.php" class="style4">Novedades y Ofertas</a></td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+		        <tr>
+		          <td height="17" ><a href="index.php" class="style4" >Home</a></td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+		          <td>&nbsp;</td>
+	            </tr>
+		        </table></td>
+	        </tr>
+		    <tr>
+		      <td>&nbsp;</td>
+	        </tr>
+		    <tr>
+		      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+		        <tr>
+		          <td width="76%">&nbsp;</td>
+		          <td width="24%"><span class="table_a"><a href="http://www.cesvimexico.com.mx/avisodeprivacidad/"  target="_blank">Aviso de Privacidad</a></span></td>
+	            </tr>
+		        </table></td>
+	        </tr>
+      </table>
+			
+		
+	</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+swfobject.registerObject("FlashID2");
+</script>
+</body>
 </html>
