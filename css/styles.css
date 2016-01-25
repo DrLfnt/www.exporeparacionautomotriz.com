@@ -1,9 +1,20 @@
 /* Main */
+#topNav {
+    height: 150px;
+}
 .logo {
-    width: 180px;    
+    width: 150px;    
 }
 .redes-sociales {
     width: 30px;
+}
+
+.menu2 {
+    height: 120px;
+    background-color: #FFFFFF;
+     z-index: 3;
+     position: fixed;
+     
     
 }
 .text-shadow {
@@ -287,8 +298,8 @@ footer {
 }
 
 header {
+    
     position: relative;
-    top:150px;
     min-height: auto;
     text-align: center;
     color: #fff;
