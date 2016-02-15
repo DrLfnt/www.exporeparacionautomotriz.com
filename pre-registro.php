@@ -38,6 +38,8 @@ echo $ani_counter->create_output();	 */
     <meta charset="utf-8" />
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
     <meta name="theme-color" content="#ED2A24" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="refresh" content="1600" />
     <!-- <meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios" /> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
