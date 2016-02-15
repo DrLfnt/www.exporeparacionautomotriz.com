@@ -1,0 +1,92 @@
+#topNav {
+	height: 150px;
+}
+.activeERMA {
+	background-color: #c2272d;
+	color: #fff;
+}
+.right {
+	position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.leftBanner {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 500px;
+	height: auto;
+}
+.rightBanner {
+	position: absolute;
+	top: 100px;
+	right: 0;
+	width: 500px;
+	height: auto;
+}
+@media only screen and (min-width : 1200px) {
+	.logoMiddle {
+		top: -1111px;
+		max-width: 35%;
+	}
+}
+@media only screen and (max-width : 1200px) {
+	.logo {
+		max-width: 50%;
+	}
+	.right {
+		position: relative;
+		right: 0;
+	}
+	.logoMiddle {
+		max-width: 30%;
+	}
+	.leftBanner {
+		width: 250px;
+	}
+	.rightBanner {
+		width: 250px;
+	}
+}
+@media only screen and (max-width : 979px) {
+	.logo {
+		max-width: 50%;
+	}
+	#topNav {
+		height: 90px;
+	}
+	.logoMiddle {
+		max-width: 50%;
+	}
+	.leftBanner {
+		width: 100px;
+	}
+	.rightBanner {
+		width: 100px;
+	}
+}
+@media only screen and (max-width : 767px) {
+	.logo {
+		max-width: 50%;
+	}
+	nav div div h3 {
+		display: none;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.logo {
+		max-width: 50%;
+	}
+	nav div div h3 {
+		display: none;
+	}
+}
+@media only screen and (max-width : 320px) {
+	.logo {
+		max-width: 50%;
+	}
+	nav div div h3 {
+		display: none;
+	}
+
+}

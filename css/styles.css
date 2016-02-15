@@ -28,6 +28,7 @@ li>a:focus, a:hover{
     color: rgb(220,0,0)!important;
 }
 .logotipo {
+    margin-top: 20%;
     margin-bottom: 5%;
     width: 50%;
 }
