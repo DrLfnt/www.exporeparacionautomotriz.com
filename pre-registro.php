@@ -33,32 +33,71 @@ echo $ani_counter->create_output();	 */
 ?>
 
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="es_MX">
+<head>  
     <meta charset="utf-8" />
-    <title>14ª Expo Reparación y Mantenimiento Automotriz</title>
-    <meta name="description" content="14ª Expo Reparación y Mantenimiento Automotriz" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body id="index">
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta name="theme-color" content="#ED2A24" />
+    <meta http-equiv="refresh" content="1600" />
+    <!-- <meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="cleartype" content="on" />
+    <!--[if IEMobile]><meta http-equiv="cleartype" content="on" /><![endif]-->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="msapplication-TileImage" content="images/icons/icon.png" />
+    <meta name="msapplication-TileColor" content="#ED2A24" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+    <meta name="description" content="Expo Reparación y Mantenimiento Automotriz, Reparación automotriz, Manejo Defensivo, Seguridad Vial, Evaluación de riesgos en Flotillas, Campañas de Educación Vial, Reconstrucción de accidentes de tránsito, Década de la seguridad vial, Dictámenes técnicos, Manejo Seguro, Consultoría flotillas, Consultoría para compañías de seguros, Consultoría para talleres, Capacitación para compañías de seguros, Plan de talleres, Talleres de reparación automotriz, Disminución de siniestralidad, Crash test, Capacitación para talleres de hojalatería y pintura, Guía de deslinde, Talleres de Equipo Pesado, Valuación de automóviles, Tabuladores de reparación, Curso virtuales para aseguradoras, Cesviteca, Identificación Vehicular, Certificación de Talleres, Certificación de Localizadores, Evaluación de talleres, Certificación CMX2009" />
+    <!-- App Name and Title -->
+    <meta name="application-name" content="Expo Reparación y Mantenimiento Automotriz" />
+    <meta name="apple-mobile-web-app-title" content="Expo Reparación y Mantenimiento Automotriz" />
+    <!-- App Name and Title -->
+    <title>Pre-Registro | 14ª Expo Reparación y Mantenimiento Automotriz</title>
+    <link rel="icon" href="images/icons/favicon.ico" />
+    <!-- Android Icon -->
+    <link rel="icon" sizes="196x196" href="images/icons/icon-196.png" />
+    <link rel="icon" sizes="128x128" href="images/icons/icon-128.png" />
+    <!-- Android Icon -->
+    <!-- Apple Icon -->
+    <link rel="apple-touch-startup-image" href="images/icons/icon.png" />
+    <link rel="apple-touch-icon" href="images/icons/icon.png" />
+    <link rel="apple-touch-icon" sizes="128x128" href="images/icons/icon-128.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/icons/icon-128.png" />
+    <!-- Apple Icon -->
+    <!-- Apple Retina Icon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/icons/icon-76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="images/icons/icon-120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="images/icons/icon-152.png" />
+    <!-- Apple Retina Icon -->
+    <!--[if lt IE 9]><script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <!--[if gte IE 9]><style type="text/css">.gradient {filter: none;}</style><![endif]-->
+    <!-- Robots.txt -->
+    <meta name="robots" content="index,follow" href="robots.txt" />
+    <!-- Robots.txt -->
+    <script>
+    (function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+    </script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css?DisainCo" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css?DisainCo" />
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?DisainCo" />
+    <link rel="stylesheet" href="css/styles.css?DisainCo" />
+    <!-- Styles -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-73291127-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54074410-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-	
+<body id="index">
 
 <script type="text/javascript" src="http://exporeparacionautomotriz.com/js/jquery-1.3.2.min.js"></script>
 <script type="text/javascript">
@@ -218,7 +257,7 @@ var a = ""
 	if (form1.edad.value == "") { a += "EDAD\n"; }
 	if (form1.COMPANIA.value == "") { a += "COMPANIA\n"; }
 	if (form1.CARGO.selectedIndex == "0") { a += "CARGO\n"; }
-	 if (form1.GIRO.selectedIndex == "0") { a += "GIRO\n"; }
+	if (form1.GIRO.selectedIndex == "0") { a += "GIRO\n"; }
     if (form1.SECTOR.selectedIndex == "0") { a += "SECTOR\n"; }
 	if (form1.DIRECCION.value == "") { a += "DIRECCION\n"; }
     if (form1.COLONIA.value == "") { a += "COLONIA\n"; }
@@ -230,13 +269,13 @@ var a = ""
     if (form1.TEL1.value == "") { a += " TELÉFONO\n"; }
 	
 	if ((form1.MAIL.value == "") ||
-//Si no contiene un arroba
-(form1.MAIL.value.indexOf('@') == -1) ||
-//o un punto
-(form1.MAIL.value.indexOf('.') == -1)) {
-//lo informamos.
-a += " FALTA CORREO O ESTA INCORRECTO \n";
-}
+    //Si no contiene un arroba
+    (form1.MAIL.value.indexOf('@') == -1) ||
+    //o un punto
+    (form1.MAIL.value.indexOf('.') == -1)) {
+    //lo informamos.
+    a += " FALTA CORREO O ESTA INCORRECTO \n";
+    }
 	
 	if (form1.A.selectedIndex == "0") { a += "PREGUNTA A)\n"; }	
 	if (form1.B.selectedIndex == "0") { a += "PREGUNTA B)\n"; }	
@@ -255,7 +294,7 @@ a += " FALTA CORREO O ESTA INCORRECTO \n";
 	if (form1.E.selectedIndex == "0") { a += "PREGUNTA E)\n"; }
 
 	if (form1.F[0].checked == false && form1.F[1].checked == false && form1.F[2].checked == false && form1.F[3].checked == false  ) { a += "  PREGUNTA F)\n"; }	
-if (form1.F4.checked == true && form1.otrof.value == "" ) { a += " F4: OTRO ¿CUÁL?\n"; }	
+    if (form1.F4.checked == true && form1.otrof.value == "" ) { a += " F4: OTRO ¿CUÁL?\n"; }	
 	if (form1.PRI[0].checked == false && form1.PRI[1].checked == false   ) { a += " Políticas de  privacidad\n"; }
      
     
@@ -263,9 +302,6 @@ if (form1.F4.checked == true && form1.otrof.value == "" ) { a += " F4: OTRO ¿CU
 form1.submit()
 }
 </script>
-
-
-
 
 	<nav id="topNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
