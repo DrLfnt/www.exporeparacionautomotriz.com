@@ -40,7 +40,7 @@ echo $ani_counter->create_output();	 */
     <meta name="theme-color" content="#ED2A24" />
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="pragma" content="no-cache">
-    <meta http-equiv="refresh" content="1600" />
+    <meta http-equiv="refresh" content="3600" />
     <!-- <meta name="author" content="Rafael Ramírez | Argenis Oldair Palacios" /> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta http-equiv="cleartype" content="on" />
