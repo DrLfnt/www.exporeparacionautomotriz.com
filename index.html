@@ -50,9 +50,10 @@
 	(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
 	</script>
 	<!-- Styles -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css?DisainCo" />
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css?DisainCo" />
-	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css?DisainCo" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" />
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 	<link rel="stylesheet" href="css/styles.css?DisainCo" />
 	<!-- Styles -->
 	<script>
@@ -275,7 +276,7 @@
 					</div>
 					<a href="#informacionGeneral" class="btn btn-default btn-md page-scroll">Información General</a>
 					<a href="#ubicacion" class="btn btn-default btn-md page-scroll">Ubicación</a>
-					<a href="#estadisticas" class="btn btn-default btn-md page-scroll">Estadistícas</a>
+					<a href="estadisticas.html" class="btn btn-default btn-md page-scroll">Estadistícas</a>
 				</div>
 			</div>
 		</div>
@@ -369,7 +370,7 @@
 					<a href="#informacionGeneral" class="btn btn-default btn-md page-scroll">Información General</a>
 					<a href="#ubicacion" class="btn btn-default btn-md page-scroll">Ubicación</a>
 	
-					<a href="#estadisticas" class="btn btn-default btn-md page-scroll">Estadistícas</a>
+					<a href="estadisticas.html" class="btn btn-default btn-md page-scroll">Estadistícas</a>
 				</center>
 			</div>
 		</div>
@@ -412,7 +413,7 @@
 						<a href="#informacionGeneral" class="btn btn-default btn-md page-scroll">Información General</a>
 						<a href="#ubicacion" class="btn btn-default btn-md page-scroll">Ubicación</a>
 		
-						<a href="#estadisticas" class="btn btn-default btn-md page-scroll">Estadistícas</a>
+						<a href="estadisticas.html" class="btn btn-default btn-md page-scroll">Estadistícas</a>
 					</center>
 				</div>
 			</div>
@@ -455,8 +456,7 @@
 					<center>
 						<a href="#informacionGeneral" class="btn btn-default btn-sm page-scroll">Información General</a>
 						<a href="#ubicacion" class="btn btn-default btn-sm page-scroll">Ubicación</a>
-						<a href="#13edicion" class="btn btn-default btn-sm page-scroll">Reseña 13<sup>va</sup> Edición</a>
-						<a href="#estadisticas" class="btn btn-default btn-sm page-scroll">Estadistícas</a>
+						<a href="estadisticas.html" class="btn btn-default btn-sm page-scroll">Estadistícas</a>
 					</center>
 				</div>
 			</div>
