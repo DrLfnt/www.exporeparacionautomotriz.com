@@ -1,25 +1,26 @@
 <?php
+include 'inyeccion.php' ; 
 include('config.php');
-	if( $HTTP_GET_VARS['NOMBRE1']!='' and $HTTP_GET_VARS['appaterno']!=''  and $HTTP_GET_VARS['apmaterno']!='' and $HTTP_GET_VARS['COMPANIA']!='' and  $HTTP_GET_VARS['CARGO']!='' and $HTTP_GET_VARS['GIRO']!='' and  $HTTP_GET_VARS['SECTOR']!='' and $HTTP_GET_VARS['DIRECCION']!='' and $HTTP_GET_VARS['COLONIA']!='' and $HTTP_GET_VARS['CP']!='' ){
+	if( $_GET['NOMBRE1']!='' and $_GET['appaterno']!=''  and $_GET['apmaterno']!='' and $_GET['COMPANIA']!='' and  $_GET['CARGO']!='' and $_GET['GIRO']!='' and  $_GET['SECTOR']!='' and $_GET['DIRECCION']!='' and $_GET['COLONIA']!='' and $_GET['CP']!='' ){
 	
-	$HTTP_GET_VARS['sql']="SELECT mail FROM tb_registro2016  WHERE mail='$HTTP_GET_VARS[MAIL]' AND mail!=''";
-	$HTTP_GET_VARS['result'] = mysql_query($HTTP_GET_VARS['sql']) or die ($HTTP_GET_VARS['sql'].mysql_error());	
+	$_GET['sql']="SELECT mail FROM tb_registro2016  WHERE mail='$_GET[MAIL]' AND mail!=''";
+	$_GET['result'] = mysql_query($_GET['sql']) or die ($_GET['sql'].mysql_error());	
 
-		if (!$HTTP_GET_VARS['row']=mysql_fetch_array($HTTP_GET_VARS['result']))
+		if (!$_GET['row']=mysql_fetch_array($_GET['result']))
 			{
 
 		//// Registro de Datos"; 
 		
- $HTTP_GET_VARS['sql'] = "INSERT INTO tb_registro2016 ( id_registro, nombre1 ,nombre2,appaterno,apmaterno,  compania,  cargo,  giro,  sector ,  direccion,  colonia, cp , pais, estado, ciudad ,  municipio,  tel1 ,  tel2, mail ,  opcionA ,  opcionB ,  opcionC1 ,  opcionC2 ,  opcionC3 ,  opcionC4 ,  opcionC5,  opcionC6 ,  opcionC7,  opcionC8 , opcionC9 ,  opcionC10,  opcionC11 , otroc4,otroc5,otroc6,otroc11,
+ $_GET['sql'] = "INSERT INTO tb_registro2016 ( id_registro, nombre1 ,nombre2,appaterno,apmaterno,  compania,  cargo,  giro,  sector ,  direccion,  colonia, cp , pais, estado, ciudad ,  municipio,  tel1 ,  tel2, mail ,  opcionA ,  opcionB ,  opcionC1 ,  opcionC2 ,  opcionC3 ,  opcionC4 ,  opcionC5,  opcionC6 ,  opcionC7,  opcionC8 , opcionC9 ,  opcionC10,  opcionC11 , otroc4,otroc5,otroc6,otroc11,
 opcionD1,opcionD2,opcionD3,opcionD4,opcionD5,opcionD6,opcionD7,opcionD8,opcionD9,opcionD10,opcionD11,opcionD12,opcionD13,opcionD14,opcionD15,opcionD16,otrosinteres,  opcionE ,fecha_registro,edad,opcionF1,opcionF2,opcionF3,opcionF4,otroF,privacidad)";
-				$HTTP_GET_VARS['sql'] .= "VALUES ('','$HTTP_GET_VARS[NOMBRE1]','$HTTP_GET_VARS[NOMBRE2]','$HTTP_GET_VARS[appaterno]','$HTTP_GET_VARS[apmaterno]','$HTTP_GET_VARS[COMPANIA]','$HTTP_GET_VARS[CARGO]','$HTTP_GET_VARS[GIRO]','$HTTP_GET_VARS[SECTOR]','$HTTP_GET_VARS[DIRECCION]','$HTTP_GET_VARS[COLONIA]','$HTTP_GET_VARS[CP]','$HTTP_GET_VARS[pais]','$HTTP_GET_VARS[estado]','$HTTP_GET_VARS[CIU]','$HTTP_GET_VARS[ciudad]','$HTTP_GET_VARS[TEL1]','$HTTP_GET_VARS[TEL2]','$HTTP_GET_VARS[MAIL]','$HTTP_GET_VARS[A]','$HTTP_GET_VARS[B]','$HTTP_GET_VARS[C1]','$HTTP_GET_VARS[C2]','$HTTP_GET_VARS[C3]','$HTTP_GET_VARS[C4]','$HTTP_GET_VARS[C5]','$HTTP_GET_VARS[C6]','$HTTP_GET_VARS[C7]','$HTTP_GET_VARS[C8]','$HTTP_GET_VARS[C9]','$HTTP_GET_VARS[C10]','$HTTP_GET_VARS[C11]','$HTTP_GET_VARS[otroc4]','$HTTP_GET_VARS[otroc5]','$HTTP_GET_VARS[otroc6]','$HTTP_GET_VARS[otroc11]','$HTTP_GET_VARS[D1]','$HTTP_GET_VARS[D2]','$HTTP_GET_VARS[D3]','$HTTP_GET_VARS[D4]','$HTTP_GET_VARS[D5]','$HTTP_GET_VARS[D6]','$HTTP_GET_VARS[D7]','$HTTP_GET_VARS[D8]','$HTTP_GET_VARS[D9]','$HTTP_GET_VARS[D10]','$HTTP_GET_VARS[D11]','$HTTP_GET_VARS[D12]','$HTTP_GET_VARS[D13]','$HTTP_GET_VARS[D14]','$HTTP_GET_VARS[D15]','$HTTP_GET_VARS[D16]','$HTTP_GET_VARS[CUALINTER]','$HTTP_GET_VARS[E]',NOW(),'$HTTP_GET_VARS[edad]','$HTTP_GET_VARS[F1]','$HTTP_GET_VARS[F2]','$HTTP_GET_VARS[F3]','$HTTP_GET_VARS[F4]','$HTTP_GET_VARS[otrof]','$HTTP_GET_VARS[PRI]')";
-				$HTTP_GET_VARS['result'] = mysql_query($HTTP_GET_VARS['sql']) or die ($HTTP_GET_VARS['sql'].mysql_error()) ;		
+				$_GET['sql'] .= "VALUES ('','$_GET[NOMBRE1]','$_GET[NOMBRE2]','$_GET[appaterno]','$_GET[apmaterno]','$_GET[COMPANIA]','$_GET[CARGO]','$_GET[GIRO]','$_GET[SECTOR]','$_GET[DIRECCION]','$_GET[COLONIA]','$_GET[CP]','$_GET[pais]','$_GET[estado]','$_GET[CIU]','$_GET[ciudad]','$_GET[TEL1]','$_GET[TEL2]','$_GET[MAIL]','$_GET[A]','$_GET[B]','$_GET[C1]','$_GET[C2]','$_GET[C3]','$_GET[C4]','$_GET[C5]','$_GET[C6]','$_GET[C7]','$_GET[C8]','$_GET[C9]','$_GET[C10]','$_GET[C11]','$_GET[otroc4]','$_GET[otroc5]','$_GET[otroc6]','$_GET[otroc11]','$_GET[D1]','$_GET[D2]','$_GET[D3]','$_GET[D4]','$_GET[D5]','$_GET[D6]','$_GET[D7]','$_GET[D8]','$_GET[D9]','$_GET[D10]','$_GET[D11]','$_GET[D12]','$_GET[D13]','$_GET[D14]','$_GET[D15]','$_GET[D16]','$_GET[CUALINTER]','$_GET[E]',NOW(),'$_GET[edad]','$_GET[F1]','$_GET[F2]','$_GET[F3]','$_GET[F4]','$_GET[otrof]','$_GET[PRI]')";
+				$_GET['result'] = mysql_query($_GET['sql']) or die ($_GET['sql'].mysql_error()) ;		
 											
 		/// Fin de Registro de Datos
 	}else{
-			$HTTP_GET_VARS['mensaje']="El Correo $HTTP_GET_VARS[MAIL] ya esta registrado!!!";
-			print "<script>alert('$HTTP_GET_VARS[mensaje]')</script>";
-			$HTTP_GET_VARS['impr']="no";
+			$_GET['mensaje']="El Correo $_GET[MAIL] ya esta registrado!!!";
+			print "<script>alert('$_GET[mensaje]')</script>";
+			$_GET['impr']="no";
 	}		
 		
 		}
@@ -264,9 +265,9 @@ var a = ""
 	if (form1.DIRECCION.value == "") { a += "DIRECCION\n"; }
     if (form1.COLONIA.value == "") { a += "COLONIA\n"; }
     if (form1.CP.value == "") { a += "CP\n"; }
-    if (form1.pais.selectedIndex == "0") { a += "PAIS\n"; }
-    if (form1.estado.selectedIndex == "0") { a += "ESTADO\n"; }
-    if (form1.ciudad.selectedIndex == "0") { a += "MUNICIPIO\n"; }
+   // if (form1.pais.selectedIndex == "0") { a += "PAIS\n"; }
+    // if (form1.estado.selectedIndex == "0") { a += "ESTADO\n"; }
+   // if (form1.ciudad.selectedIndex == "0") { a += "MUNICIPIO\n"; }
 	if (form1.CIU.value == "") { a += " CIUDAD\n"; }
     if (form1.TEL1.value == "") { a += " TELÉFONO\n"; }
 	
@@ -539,7 +540,9 @@ form1.submit()
 					<h2 class="text-center margin-top-0">
 						PRE-REGISTRO
 					</h2>
-					
+					<div>
+						<iframe src="conteo.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+					</div>
 					<div class="col-md-12">
 						
 						<!-- Formulario -->
@@ -561,45 +564,47 @@ form1.submit()
 </body>
 </html>
 <?php
-if( $HTTP_GET_VARS['NOMBRE1']!='' and $HTTP_GET_VARS['COMPANIA']!='' and  $HTTP_GET_VARS['DIRECCION']!='' and $HTTP_GET_VARS['COLONIA']!='' and  $HTTP_GET_VARS['ciudad']!='' and $HTTP_GET_VARS['MAIL']!='' and $HTTP_GET_VARS['TEL1']!='' and $HTTP_GET_VARS['CP']!='' and  $HTTP_GET_VARS['impr']=='' ){
+if( $_GET['NOMBRE1']!='' and $_GET['COMPANIA']!='' and  $_GET['DIRECCION']!='' and $_GET['COLONIA']!='' and  $_GET['ciudad']!='' and $_GET['MAIL']!='' and $_GET['TEL1']!='' and $_GET['CP']!='' and  $_GET['impr']=='' ){
  
-					$HTTP_GET_VARS['result2']=mysql_query("SELECT id_registro, compania, tel1, CONCAT( NOMBRE1, ' ', NOMBRE2, ' ', APPATERNO, ' ', APMATERNO ) AS NOMBRE FROM  tb_registro2016 WHERE mail='$HTTP_GET_VARS[MAIL]'");
-		   				while($vec=mysql_fetch_array($HTTP_GET_VARS['result2'])){
-							$HTTP_GET_VARS['id']=$vec[0];					
-							$HTTP_GET_VARS['COMPANIA']=$vec[1];							
-							$HTTP_GET_VARS['TELEFONO']=$vec[2];
-							$HTTP_GET_VARS['nombreCC']=$vec[3];
+					$_GET['result2']=mysql_query("SELECT id_registro, compania, tel1, CONCAT( NOMBRE1, ' ', NOMBRE2, ' ', APPATERNO, ' ', APMATERNO ) AS NOMBRE FROM  tb_registro2016 WHERE mail='$_GET[MAIL]'");
+		   				while($vec=mysql_fetch_array($_GET['result2'])){
+							$_GET['id']=$vec[0];					
+							$_GET['COMPANIA']=$vec[1];							
+							$_GET['TELEFONO']=$vec[2];
+							$_GET['nombreCC']=$vec[3];
 							
 						}			
 						
 						echo "<script language='JavaScript' type='text/JavaScript'>		   								
-								window.location = 'pdf.php?id=$HTTP_GET_VARS[id]&nombre=$HTTP_GET_VARS[nombreCC]&mail=$HTTP_GET_VARS[MAIL]&comania=$HTTP_GET_VARS[COMPANIA]&telefono=$HTTP_GET_VARS[TELEFONO]'; 
+								window.location = 'http://www.cesvimexico.com.mx/expo/pdf.php?id=$_GET[id]&nombre=$_GET[nombreCC]&mail=$_GET[MAIL]&comania=$_GET[COMPANIA]&telefono=$_GET[TELEFONO]'; 
 					  		  </script>";
 						exit; 
  }
- if( $HTTP_GET_VARS['MAIL2']!='' ){
+ 
+ if( $_GET['MAIL2']!='' ){
 			
-			$HTTP_GET_VARS['sql']="SELECT mail FROM tb_registro2016  WHERE mail='$HTTP_GET_VARS[MAIL2]'";
-			$HTTP_GET_VARS['result'] = mysql_query($HTTP_GET_VARS['sql']) or die ($HTTP_GET_VARS['sql'].mysql_error());	
+			$_GET['sql']="SELECT mail FROM tb_registro2016  WHERE mail='$_GET[MAIL2]'";
+			$_GET['result'] = mysql_query($_GET['sql']) or die ($_GET['sql'].mysql_error());	
 			
-			if ($HTTP_GET_VARS['row']=mysql_fetch_array($HTTP_GET_VARS['result'])){
-								$HTTP_GET_VARS['result2']=mysql_query("SELECT id_registro, compania, tel1, CONCAT( NOMBRE1, ' ', NOMBRE2, ' ', APPATERNO, ' ', APMATERNO ) AS NOMBRE FROM  tb_registro2016 WHERE mail='$HTTP_GET_VARS[MAIL2]' ");
-									while($vec=mysql_fetch_array($HTTP_GET_VARS['result2'])){
-										$HTTP_GET_VARS['id']=$vec[0];
-										$HTTP_GET_VARS['nombreCC']=$vec[3];
-										$HTTP_GET_VARS['COMPANIA']=$vec[1];							
-										$HTTP_GET_VARS['TELEFONO']=$vec[2];
+			if ($_GET['row']=mysql_fetch_array($_GET['result'])){
+								$_GET['result2']=mysql_query("SELECT id_registro, compania, tel1, CONCAT( NOMBRE1, ' ', NOMBRE2, ' ', APPATERNO, ' ', APMATERNO ) AS NOMBRE FROM  tb_registro2016 WHERE mail='$_GET[MAIL2]' ");
+									while($vec=mysql_fetch_array($_GET['result2'])){
+										$_GET['id']=$vec[0];
+										$_GET['nombreCC']=$vec[3];
+										$_GET['COMPANIA']=$vec[1];							
+										$_GET['TELEFONO']=$vec[2];
 							
 									}			
 									
 									echo "<script language='JavaScript' type='text/JavaScript'>		   								
-											window.location = 'pdf.php?id=$HTTP_GET_VARS[id]&nombre=$HTTP_GET_VARS[nombreCC]&mail=$HTTP_GET_VARS[MAIL2]&comania=$HTTP_GET_VARS[COMPANIA]&telefono=$HTTP_GET_VARS[TELEFONO]'; 
+											window.location = 'http://www.cesvimexico.com.mx/expo/pdf.php?id=$_GET[id]&nombre=$_GET[nombreCC]&mail=$_GET[MAIL2]&comania=$_GET[COMPANIA]&telefono=$_GET[TELEFONO]'; 
 										  </script>";
 									exit;
 			}else{
-					$HTTP_GET_VARS['mensaje']="El Correo $HTTP_GET_VARS[MAIL2] no existe!!!";
-					print "<script>alert('$HTTP_GET_VARS[mensaje]')</script>";
+					$_GET['mensaje']="El Correo $_GET[MAIL2] no existe!!!";
+					print "<script>alert('$_GET[mensaje]')</script>";
 			}
 					
  }
+ 
  ?>
